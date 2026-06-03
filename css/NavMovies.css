@@ -1,0 +1,85 @@
+.custom-navbar {
+  background-color: #050505;   
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.5);
+}
+
+.search-form input {
+  border-radius: 20px;
+  border: none;
+  background-color: #3f4135;
+  color: #eff0e9;
+  padding: 0.4rem 0.8rem;
+}
+
+.search-form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #bed305;
+}
+.search-form button {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  color: #d6ed08;
+  border: none;
+}
+
+.search-form button:hover {
+  background-color: #b2c506;  
+  color: #060600;
+  transition: all 0.3s ease;
+  transform: scale(1.5);
+}
+
+.navHome {
+  background-color: #030303;   
+  padding: 0.5rem 0;
+}
+
+.navHome .nav-link {
+  color: #576003;
+  margin: 0 4rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.navHome .nav-link:hover {
+  color: #bed305;
+  transform: scale(2);  
+}
+
+.navHome .nav-link.active {
+  color: #acbe09 !important;   
+  transition: all 0.3s ease;       
+  transform: scale(1.5);   
+  font-weight: 700;        
+  text-shadow: 0 0 10px #4a4a26;
+}
+
+@media (max-width: 768px) {
+  .search-form {
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 50%;
+  }
+
+  .search-form input {
+    width: 50%;
+  }
+
+  .search-form button {
+    width: 20%;
+  }
+
+  .navHome .nav-link {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+}

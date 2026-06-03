@@ -1,0 +1,10 @@
+.app{
+  min-height: 100vh; 
+  background: linear-gradient(to right,  #011010,    #989f57
+,
+    #000809
+);
+transition: background-color 0.5s ease;
+}
+
+
